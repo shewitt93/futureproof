@@ -1,0 +1,96 @@
+body{
+    width: 1300px;
+    margin: auto;
+  }
+  
+  header {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-top:40px;
+  }
+  
+  
+  p{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    margin-top:50px;
+  
+  }
+  li{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    margin-top:10px;
+  }
+  h2 {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 24px;
+  }
+  h4 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    
+  }
+  h4 a{
+    text-decoration: none;
+    color: #555555;
+  }
+  h4 a:hover{
+    color: black;
+  }
+  
+  
+  .footer{
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 24px;
+    
+    
+  }
+  .section1 {
+    display: flex;
+    order: 3;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    
+  }
+  .section2 {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+  }
+  .img {
+    width: 600px;
+  }
+  .thick-black-border{
+    border-color: black;
+      border-width: 2px;
+      border-style: solid;
+      margin-top: 15px;
+  }
+  .thin-black-border{
+    border-color: black;
+      border-width: 1px;
+      border-style: solid;
+      margin-top: 15px;
+  }
+  .grey-background{
+    background-color: #dddddd;
+    border-style: opaque;
+    
+    padding: 80px 40px 40px 40px;
+  }
+  
+  ul3{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+  }
+  .h5 a{
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #555555;
+  }
+  .h5 a:hover{
+    color: black;
+  }
