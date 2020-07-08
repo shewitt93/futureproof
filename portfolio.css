@@ -1,5 +1,5 @@
 body{
-    width: 1300px;
+    width: 1400px;
     margin: auto;
   }
   
@@ -9,22 +9,19 @@ body{
     text-align: center;
     margin-top:40px;
   }
-  
-  
-  p{
-    font-family: 'Arsenal', sans-serif;
-    font-size: 16px;
-    margin-top:50px;
-  
+  nav {
+    position: sticky;
+    top: 0;
+    overflow: visible;
   }
-  li{
-    font-family: 'Arsenal', sans-serif;
-    font-size: 16px;
-    margin-top:10px;
-  }
-  h2 {
-    font-family: 'Lexend Tera', sans-serif;
-    font-size: 24px;
+  #nav1 {
+    display: flex;
+    order: 3;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    z-index: 2;
+    fill: white;
+    
   }
   h4 {
     font-family: 'Arsenal', sans-serif;
@@ -34,45 +31,55 @@ body{
   h4 a{
     text-decoration: none;
     color: #555555;
+    padding: 15px 0;
   }
   h4 a:hover{
     color: black;
+    border-bottom: 1px solid black;
   }
-  
-  
-  .footer{
-    font-family: 'Lexend Tera', sans-serif;
-    font-size: 24px;
-    
-    
-  }
-  .section1 {
-    display: flex;
-    order: 3;
-    justify-content: space-evenly;
-    margin-top: 5px;
-    
-  }
-  .section2 {
+  #section2 {
     display: flex;
     justify-content:space-between;
     margin-top: 15px;
   }
+  p{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    margin-top:50px;
+    line-height: 1.5;
+  
+  }
+  h2 {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 24px;
+  }
+
+  li{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    margin-top:10px;
+  }
+  
+  
+
+
+  
   .img {
     width: 600px;
   }
-  .thick-black-border{
-    border-color: black;
-      border-width: 2px;
-      border-style: solid;
+  .border-top{
+      border-bottom: 2px solid black;
       margin-top: 15px;
   }
-  .thin-black-border{
-    border-color: black;
-      border-width: 1px;
-      border-style: solid;
+  .border-bottom{
+      border-bottom:solid 1px black; 
       margin-top: 15px;
   }
+  .border-topt{
+    border-top: solid 1px black;
+    margin-top: 10px;
+  }
+
   .grey-background{
     background-color: #dddddd;
     border-style: opaque;
@@ -98,7 +105,7 @@ body{
     display: block;
     max-width: 100%;
   }
-  
+  /* CAROUSEL */
   .wrapper {
     overflow: hidden;
     height: 100vh;
@@ -134,3 +141,4 @@ body{
   
     
   }
+/* CAROUSEL */
